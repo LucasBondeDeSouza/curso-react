@@ -5,6 +5,7 @@ import Empresa from './pages/Empresa'
 
 import './App.css';
 import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <Route path="/empresa" element={<Empresa />} />
         <Route path="/contato" element={<Contato />} />
       </Routes>
+
+      <Footer />
 
     </Router> 
   );
